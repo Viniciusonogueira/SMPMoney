@@ -1,0 +1,118 @@
+/* Resetar configurações padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d4d4d;
+    color: #f587dd;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 650px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.balance, .deposit, .total-saved, .yields {
+    border: 1px solid #ef97a3;
+    background: #;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.balance h2, .total-saved h2 {
+    font-size: 1.2em;
+}
+
+.balance span, .total-saved span {
+    color: #b83994;
+    font-weight: bold;
+}
+
+.deposit h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.deposit input {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ed86df;
+    border-radius: 5px;
+}
+
+.deposit button {
+    width: 15%;
+    padding: 5px;
+    background: #f07cfd;
+    color: #000008;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.deposit button:hover {
+    background: #d4486f;
+}
+
+.yields h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.yields ul {
+    list-style: none;
+    padding: 0;
+}
+
+.yields ul li {
+    margin: 35px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 10px;
+}

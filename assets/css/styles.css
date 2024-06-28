@@ -1,0 +1,145 @@
+/* Resetar configurações padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    width: 150px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.welcome h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.welcome h1 {
+    font-size: 2em;
+    color: #5d9cec;
+}
+
+.balance {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.balance h2 {
+    font-size: 1.2em;
+}
+
+.balance span {
+    color: #5d9cec;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.actions .action {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.actions .action button {
+    width: 100%;
+    padding: 10px;
+    background: #5d9cec;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.actions .action button:hover {
+    background: #4a8bd6;
+}
+
+.credit-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.credit-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.credit-card p {
+    margin: 5px 0;
+}
+
+.credit-card button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.credit-card button:hover {
+    background: #e55b5b;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
